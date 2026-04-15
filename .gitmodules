@@ -1,0 +1,15 @@
+[submodule "abc"]
+	path = abc
+	url = https://github.com/ArthurNieh/abc
+[submodule "DQBDD"]
+	path = DQBDD
+	url = https://github.com/Enfest/DQBDD
+[submodule "SAT-based-CEGAR"]
+	path = SAT-based-CEGAR
+	url = https://github.com/TakehideSoh/SAT-based-CEGAR
+[submodule "pedant-solver"]
+	path = pedant-solver
+	url = https://github.com/fslivovsky/pedant-solver
+[submodule "popsatgcpbcp"]
+	path = popsatgcpbcp
+	url = https://github.com/s6dafabe/popsatgcpbcp

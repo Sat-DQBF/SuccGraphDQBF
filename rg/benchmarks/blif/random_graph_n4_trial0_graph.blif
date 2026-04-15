@@ -1,0 +1,29 @@
+
+.model graph
+.inputs U0 U1 U2 U3 V0 V1 V2 V3 
+.outputs E
+.names CONST1
+1
+.subckt __rg_xor2 I0=U0 I1=V1 O=G1
+.subckt __rg_xor2 I0=V2 I1=G1 O=G0
+.subckt __rg_xor2 I0=V0 I1=U1 O=Gs1
+.subckt __rg_xor2 I0=U2 I1=Gs1 O=Gs0
+.subckt __rg_or2 I0=G0 I1=Gs0 O=E
+.end
+
+.model __rg_xor2
+.inputs I0 I1
+.outputs O
+.names I0 I1 O
+01 1
+10 1
+.end
+
+.model __rg_or2
+.inputs I0 I1 
+.outputs O
+.names I0 I1 O
+1- 1
+-1 1
+.end
+

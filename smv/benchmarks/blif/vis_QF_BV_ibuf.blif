@@ -1,0 +1,243 @@
+.model ../benchmarks/aag/vis_QF_BV_ibuf.aag
+.inputs i10 i14 i16 i20 i24 i26 i34 i40 i52 i54 \
+i56 i64 i78 
+.outputs 
+.latch c1 l2 0
+.latch i16 l38 0
+.latch i26 l58 0
+.latch i24 l62 0
+.latch i14 l86 0
+.latch i20 l92 0
+.latch i10 l104 0
+.latch na268 l4 0
+.names i14 i16 a12
+00 1
+.names i10 a12 a8
+01 1
+.names i24 i26 a22
+00 1
+.names i20 a22 a18
+01 1
+.names a8 a18 a6
+11 1
+.names l38 i40 a36
+01 1
+.names i52 i54 a50
+11 1
+.names l38 a50 a48
+11 1
+.names i56 l58 a60
+10 1
+.names a48 a60 a46
+10 1
+.names l62 i64 a66
+01 1
+.names a46 a66 a44
+10 1
+.names i54 i78 a76
+11 1
+.names l38 a76 a74
+11 1
+.names i52 i56 a88
+11 1
+.names l86 a88 a84
+11 1
+.names i54 l58 a90
+11 1
+.names a84 a90 a82
+10 1
+.names l92 i64 a94
+01 1
+.names a82 a94 a80
+10 1
+.names a80 a60 a96
+01 1
+.names a74 a96 a72
+10 1
+.names i52 i64 a106
+11 1
+.names l104 a106 a102
+11 1
+.names l62 i54 a108
+11 1
+.names a102 a108 a100
+10 1
+.names l92 i56 a110
+01 1
+.names a100 a110 a98
+10 1
+.names a98 a66 a112
+01 1
+.names a72 a112 a70
+10 1
+.names a70 a44 a68
+10 1
+.names a44 a68 a114
+00 1
+.names l38 a114 a42
+11 1
+.names a36 a42 a116
+00 1
+.names i34 a116 a118
+10 1
+.names i34 l104 a120
+01 1
+.names a118 a120 a122
+00 1
+.names a122 i10 a124
+00 1
+.names i10 a122 a126
+11 1
+.names a124 a126 a128
+00 1
+.names l38 l86 a134
+10 1
+.names i40 a134 a132
+11 1
+.names i56 i78 a146
+11 1
+.names l86 a146 a144
+11 1
+.names a90 a44 a148
+10 1
+.names a144 a148 a142
+10 1
+.names a98 a94 a150
+01 1
+.names a142 a150 a140
+10 1
+.names a140 a80 a138
+10 1
+.names a80 a138 a152
+00 1
+.names l86 a152 a136
+11 1
+.names a132 a136 a154
+00 1
+.names i34 a154 a156
+10 1
+.names i34 l86 a158
+01 1
+.names a156 a158 a160
+00 1
+.names a160 i14 a162
+00 1
+.names i14 a160 a164
+11 1
+.names a162 a164 a166
+00 1
+.names l86 l104 a172
+10 1
+.names l38 a172 a170
+11 1
+.names i40 a170 a168
+11 1
+.names i64 i78 a184
+11 1
+.names l104 a184 a182
+11 1
+.names a108 a44 a186
+10 1
+.names a182 a186 a180
+10 1
+.names a110 a80 a188
+10 1
+.names a180 a188 a178
+10 1
+.names a178 a98 a176
+10 1
+.names a98 a176 a190
+00 1
+.names l104 a190 a174
+11 1
+.names a168 a174 a192
+00 1
+.names i34 a192 a194
+10 1
+.names i34 l38 a196
+01 1
+.names a194 a196 a198
+00 1
+.names a198 i16 a200
+00 1
+.names i16 a198 a202
+11 1
+.names a200 a202 a204
+00 1
+.names a166 a204 a130
+11 1
+.names a128 a130 a32
+11 1
+.names l58 a154 a210
+00 1
+.names l86 a210 a212
+11 1
+.names a116 a212 a208
+00 1
+.names i34 a208 a214
+11 1
+.names i34 l92 a216
+01 1
+.names a214 a216 a218
+00 1
+.names a218 i20 a220
+00 1
+.names i20 a218 a222
+11 1
+.names a220 a222 a224
+00 1
+.names l62 a192 a230
+00 1
+.names l104 a230 a232
+11 1
+.names a116 a232 a228
+00 1
+.names i34 a228 a234
+11 1
+.names i34 l62 a236
+01 1
+.names a234 a236 a238
+00 1
+.names a238 i24 a240
+00 1
+.names i24 a238 a242
+11 1
+.names a240 a242 a244
+00 1
+.names l92 a192 a248
+00 1
+.names l104 a248 a250
+11 1
+.names a154 a250 a246
+00 1
+.names i34 a246 a252
+11 1
+.names i34 l58 a254
+01 1
+.names a252 a254 a256
+00 1
+.names a256 i26 a258
+00 1
+.names i26 a256 a260
+11 1
+.names a258 a260 a262
+00 1
+.names a244 a262 a226
+11 1
+.names a224 a226 a206
+11 1
+.names a32 a206 a30
+11 1
+.names l4 a30 a28
+11 1
+.names l2 a6 a264
+01 1
+.names l2 a28 a266
+11 1
+.names a264 a266 a268
+00 1
+.names a268 na268
+0 1
+.names c1
+1
+.end
