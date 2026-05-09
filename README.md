@@ -1,6 +1,6 @@
 # Graph Extraction & DQBF Solving Pipeline
 
-A parallelized experiment framework for extracting succinct and explicit graphs from Boolean sequential circuits, encoding graph problems (Clique, Coloring, Hamiltonian) into Dependency Quantified Boolean Formulas (DQBF), and evaluating them against state-of-the-art solvers.
+An experiment framework for extracting succinct and explicit graphs from Boolean sequential circuits, encoding graph problems (Clique, Coloring, Hamiltonian) into Dependency Quantified Boolean Formulas (DQBF), and evaluating them against state-of-the-art solvers.
 
 ## Overview
 
