@@ -16,7 +16,7 @@ This experiment framework operates on three primary benchmark sets:
 
 ### Supported Solvers
 * **DQBF Solvers**: [DQBDD](https://github.com/jurajsic/DQBDD), [pedant](https://github.com/fslivovsky/pedant-solver) 
-* **SAT Solvers**: `SAT` ([PySAT](https://pysathq.github.io/)/[Cadical](https://github.com/arminbiere/cadical]), [POP-S](https://github.com/s6dafabe/popsatgcpbcp)
+* **SAT Solvers**:  [PySAT](https://pysathq.github.io/), [Cadical](https://github.com/arminbiere/cadical), [POP-S](https://github.com/s6dafabe/popsatgcpbcp)
 * **Other Graph Solvers**: [Google OR-Tools](https://developers.google.com/optimization/), [SAT-based CEGAR](https://github.com/TakehideSoh/SAT-based-CEGAR)
 
 ---
