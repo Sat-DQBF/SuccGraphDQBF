@@ -15,9 +15,9 @@ This experiment framework operates on three primary benchmark sets:
 * **Hamiltonian Cycle**: Determines if the graph contains a Hamiltonian cycle.
 
 ### Supported Solvers
-* **DQBF Solvers**: `dqbdd`, `pedant`
-* **SAT Solvers**: `sat` (PySAT/Cadical), `popsat` (POP-S)
-* **Other Graph Solvers**: `ortools` (Google OR-Tools), `cegar` (SAT-based CEGAR)
+* **DQBF Solvers**: [DQBDD](https://github.com/jurajsic/DQBDD), [pedant](https://github.com/fslivovsky/pedant-solver) 
+* **SAT Solvers**: `SAT` ((PySAT)[https://pysathq.github.io/]/(Cadical)[https://github.com/arminbiere/cadical]), (POP-S)[https://github.com/s6dafabe/popsatgcpbcp]
+* **Other Graph Solvers**: (Google OR-Tools)[https://developers.google.com/optimization/], (SAT-based CEGAR)[https://github.com/TakehideSoh/SAT-based-CEGAR]
 
 ---
 
