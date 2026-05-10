@@ -1,0 +1,107 @@
+
+.model graph
+.inputs U0 U1 U2 U3 U4 U5 U6 U7 U8 U9 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U25 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U36 U37 V0 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25 V26 V27 V28 V29 V30 V31 V32 V33 V34 V35 V36 V37 
+.outputs E
+.names CONST1
+1
+.subckt __rg_xor2 I0=U0 I1=U1 O=G40
+.subckt __rg_xor2 I0=U3 I1=U6 O=G39
+.subckt __rg_xor2 I0=U8 I1=U9 O=G38
+.subckt __rg_xor2 I0=U10 I1=U13 O=G37
+.subckt __rg_xor2 I0=U14 I1=U17 O=G36
+.subckt __rg_xor2 I0=U18 I1=U19 O=G35
+.subckt __rg_xor2 I0=U20 I1=U22 O=G34
+.subckt __rg_xor2 I0=U23 I1=U24 O=G33
+.subckt __rg_xor2 I0=U26 I1=U28 O=G32
+.subckt __rg_xor2 I0=U29 I1=U30 O=G31
+.subckt __rg_xor2 I0=U33 I1=U34 O=G30
+.subckt __rg_xor2 I0=U35 I1=U36 O=G29
+.subckt __rg_xor2 I0=V1 I1=V2 O=G28
+.subckt __rg_xor2 I0=V3 I1=V4 O=G27
+.subckt __rg_xor2 I0=V7 I1=V15 O=G26
+.subckt __rg_xor2 I0=V17 I1=V18 O=G25
+.subckt __rg_xor2 I0=V19 I1=V20 O=G24
+.subckt __rg_xor2 I0=V23 I1=V26 O=G23
+.subckt __rg_xor2 I0=V27 I1=V28 O=G22
+.subckt __rg_xor2 I0=V31 I1=V34 O=G21
+.subckt __rg_xor2 I0=V37 I1=CONST1 O=G20
+.subckt __rg_xor2 I0=G40 I1=G39 O=G19
+.subckt __rg_xor2 I0=G38 I1=G37 O=G18
+.subckt __rg_xor2 I0=G36 I1=G35 O=G17
+.subckt __rg_xor2 I0=G34 I1=G33 O=G16
+.subckt __rg_xor2 I0=G32 I1=G31 O=G15
+.subckt __rg_xor2 I0=G30 I1=G29 O=G14
+.subckt __rg_xor2 I0=G28 I1=G27 O=G13
+.subckt __rg_xor2 I0=G26 I1=G25 O=G12
+.subckt __rg_xor2 I0=G24 I1=G23 O=G11
+.subckt __rg_xor2 I0=G22 I1=G21 O=G10
+.subckt __rg_xor2 I0=G20 I1=G19 O=G9
+.subckt __rg_xor2 I0=G18 I1=G17 O=G8
+.subckt __rg_xor2 I0=G16 I1=G15 O=G7
+.subckt __rg_xor2 I0=G14 I1=G13 O=G6
+.subckt __rg_xor2 I0=G12 I1=G11 O=G5
+.subckt __rg_xor2 I0=G10 I1=G9 O=G4
+.subckt __rg_xor2 I0=G8 I1=G7 O=G3
+.subckt __rg_xor2 I0=G6 I1=G5 O=G2
+.subckt __rg_xor2 I0=G4 I1=G3 O=G1
+.subckt __rg_xor2 I0=G2 I1=G1 O=G0
+.subckt __rg_xor2 I0=V0 I1=V1 O=Gs40
+.subckt __rg_xor2 I0=V3 I1=V6 O=Gs39
+.subckt __rg_xor2 I0=V8 I1=V9 O=Gs38
+.subckt __rg_xor2 I0=V10 I1=V13 O=Gs37
+.subckt __rg_xor2 I0=V14 I1=V17 O=Gs36
+.subckt __rg_xor2 I0=V18 I1=V19 O=Gs35
+.subckt __rg_xor2 I0=V20 I1=V22 O=Gs34
+.subckt __rg_xor2 I0=V23 I1=V24 O=Gs33
+.subckt __rg_xor2 I0=V26 I1=V28 O=Gs32
+.subckt __rg_xor2 I0=V29 I1=V30 O=Gs31
+.subckt __rg_xor2 I0=V33 I1=V34 O=Gs30
+.subckt __rg_xor2 I0=V35 I1=V36 O=Gs29
+.subckt __rg_xor2 I0=U1 I1=U2 O=Gs28
+.subckt __rg_xor2 I0=U3 I1=U4 O=Gs27
+.subckt __rg_xor2 I0=U7 I1=U15 O=Gs26
+.subckt __rg_xor2 I0=U17 I1=U18 O=Gs25
+.subckt __rg_xor2 I0=U19 I1=U20 O=Gs24
+.subckt __rg_xor2 I0=U23 I1=U26 O=Gs23
+.subckt __rg_xor2 I0=U27 I1=U28 O=Gs22
+.subckt __rg_xor2 I0=U31 I1=U34 O=Gs21
+.subckt __rg_xor2 I0=U37 I1=CONST1 O=Gs20
+.subckt __rg_xor2 I0=Gs40 I1=Gs39 O=Gs19
+.subckt __rg_xor2 I0=Gs38 I1=Gs37 O=Gs18
+.subckt __rg_xor2 I0=Gs36 I1=Gs35 O=Gs17
+.subckt __rg_xor2 I0=Gs34 I1=Gs33 O=Gs16
+.subckt __rg_xor2 I0=Gs32 I1=Gs31 O=Gs15
+.subckt __rg_xor2 I0=Gs30 I1=Gs29 O=Gs14
+.subckt __rg_xor2 I0=Gs28 I1=Gs27 O=Gs13
+.subckt __rg_xor2 I0=Gs26 I1=Gs25 O=Gs12
+.subckt __rg_xor2 I0=Gs24 I1=Gs23 O=Gs11
+.subckt __rg_xor2 I0=Gs22 I1=Gs21 O=Gs10
+.subckt __rg_xor2 I0=Gs20 I1=Gs19 O=Gs9
+.subckt __rg_xor2 I0=Gs18 I1=Gs17 O=Gs8
+.subckt __rg_xor2 I0=Gs16 I1=Gs15 O=Gs7
+.subckt __rg_xor2 I0=Gs14 I1=Gs13 O=Gs6
+.subckt __rg_xor2 I0=Gs12 I1=Gs11 O=Gs5
+.subckt __rg_xor2 I0=Gs10 I1=Gs9 O=Gs4
+.subckt __rg_xor2 I0=Gs8 I1=Gs7 O=Gs3
+.subckt __rg_xor2 I0=Gs6 I1=Gs5 O=Gs2
+.subckt __rg_xor2 I0=Gs4 I1=Gs3 O=Gs1
+.subckt __rg_xor2 I0=Gs2 I1=Gs1 O=Gs0
+.subckt __rg_or2 I0=G0 I1=Gs0 O=E
+.end
+
+.model __rg_xor2
+.inputs I0 I1
+.outputs O
+.names I0 I1 O
+01 1
+10 1
+.end
+
+.model __rg_or2
+.inputs I0 I1 
+.outputs O
+.names I0 I1 O
+1- 1
+-1 1
+.end
+

@@ -22,6 +22,9 @@ case "$SOLVER" in
     cegar)
         CMD+=("$CEGAR_FIX_BIN" -i "$INPUT_FILE" -e 1 -b 3 -t 3 -l 1)
         ;;
+    generate)
+        CMD+=(true)
+        ;;
     *)
         echo "[Error] Unknown solver: $SOLVER"
         exit 1
